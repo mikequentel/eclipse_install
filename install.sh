@@ -6,3 +6,5 @@ sudo addgroup eclipse || true
 sudo usermod ${USER} -aG eclipse || true
 sudo chown -R :eclipse /opt/eclipse
 echo 'export PATH=$PATH:/opt/eclipse'>>~/.bashrc
+sudo su - ${USER}
+
